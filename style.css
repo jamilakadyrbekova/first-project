@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+.form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.todo__input{
+    width: 50%;
+    height: 50px;
+    font-size: 24px;
+    padding: 0 10px;
+}
+.todo__list{
+    list-style: none;
+}
+.checkbox__label{
+    font-size: 30px;
+}
+.todo__item{
+    display: flex;
+    align-items: center;
+}
+.checkbox__input{
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+}
